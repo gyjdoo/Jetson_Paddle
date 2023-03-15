@@ -65,4 +65,4 @@ sudo cmake -D PY_VERSION=3.8 \
         -D CMAKE_CUDA_COMPILER=/usr/local/cuda-11.4/bin/nvcc \
         -D CMAKE_BUILD_TYPE=Release ..
         
-make -j4
+sudo make -j4
